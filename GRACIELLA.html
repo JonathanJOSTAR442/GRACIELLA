@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page d'Accueil - Joyeux Anniversaire Graciella</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4e1d2;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            text-align: center;
+        }
+        header {
+            background-color: #6a1b9a;
+            color: white;
+            padding: 2rem;
+            width: 100%;
+        }
+        h1 {
+            font-size: 3rem;
+            margin: 0;
+            font-family: 'Georgia', serif;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+        .button {
+            display: inline-block;
+            padding: 1.5rem 3rem;
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: white;
+            background-color: #ff6f61;
+            border: none;
+            border-radius: 10px;
+            text-decoration: none;
+            margin-top: 2rem;
+            transition: background-color 0.3s, transform 0.3s;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .button:hover {
+            background-color: #e65b50;
+            transform: scale(1.05);
+            cursor: pointer;
+        }
+        footer {
+            background-color: #6a1b9a;
+            color: white;
+            padding: 1rem;
+            width: 100%;
+            position: fixed;
+            bottom: 0;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Joyeux Anniversaire Graciella !</h1>
+    </header>
+    <main>
+        <a href="GRACI.html" class="button"> appui ici </a>
+    </main>
+    <footer>
+        <p>© 2025 - Créé avec amour pour Graciella</p>
+    </footer>
+</body>
+</html>
